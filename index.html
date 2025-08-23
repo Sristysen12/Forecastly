@@ -15,14 +15,20 @@
             placeholder="Enter your location"
             class="input-box"
           />
-          <button class="fa-solid fa-magnifying-glass-location"></button>
+          <button class="fa-solid fa-magnifying-glass-location" id="searchBtn"></button>
         </div>
       </div>
+      <div class="location-not-found">
+        <h1>Sorry, location not found !.</h1>
+        <img src="/assest/404.jpeg" alt="404 error" srcset="">
+      </div>
+
+
       <div class="weather-body">
         <img src="/assest/clear.jpeg" alt="Weather" class="weather-img" />
 
         <div class="weather-box">
-          <p class="temperature">0<sup>°C</sup></p>
+            <p class="temperature">0<sup>°C</sup></p>
           <p class="description">Light rain</p>
         </div>
         <div class="weather-details">
@@ -41,14 +47,10 @@
           <p>Wind Speed</p>
         </div>
       </div>
+     </div>
 
 
-
-
-
-
-
-    </div>
+    <script src="script.js"></script>
     <script
       src="https://kit.fontawesome.com/611d12a873.js"
       crossorigin="anonymous"
